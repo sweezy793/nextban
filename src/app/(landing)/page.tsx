@@ -1,5 +1,5 @@
 import { LayoutPanelTop } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import React from "react";
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ const page = () => {
           <LayoutPanelTop className="h-6 w-6 mr-2" />
           Your very own task-board
         </div>
-        <div className="text-3xl md:text-6xl text-center bg-gradient-to-r from-red-800 to-orange-300 text-white px-4 p-2 rounded-md pb-4 w-fit">
+        <div className="text-3xl md:text-6xl text-center bg-gradient-to-r from-red-800 to-orange-300 text-white px-4 p-2 rounded-md pb-4 w-fit hover:shadow-2xl transition cursor-default">
           NextBan.AI
         </div>
         <div className="text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto">
