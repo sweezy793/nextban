@@ -9,7 +9,7 @@ const page = () => {
       <div className="flex items-center justify-center flex-col">
         <div className="mb-4 flex items-center border shadow-sm p-4 bg-red-100 text-red-600 rounded-full uppercase">
           <LayoutPanelTop className="h-6 w-6 mr-2" />
-          Your very own task-board
+          Your own AI-powered task-board
         </div>
         <div className="text-3xl md:text-6xl text-center bg-gradient-to-r from-red-800 to-orange-300 text-white px-4 p-2 rounded-md pb-4 w-fit hover:shadow-2xl transition cursor-default">
           NextBan.AI
